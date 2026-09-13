@@ -1,0 +1,632 @@
+EDBT 8-tuple: T+ = (V, E, Phi, Psi, Pi, gamma, Delta, Omega)
+================================================================================
+ EDBT FRAMEWORK - EXPERIMENTAL VALIDATION
+ Grid=4d*4d | rho=0.15 | eps=0.05 | Trials=30 | b=4
+
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.870 (n=34), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.785 (n=33), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.806 (n=42), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.830 (n=49), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.821 (n=48), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.843 (n=32), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.797 (n=30), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.699 (n=38), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.867 (n=52), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.778 (n=47), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.665 (n=27), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.804 (n=40), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.782 (n=40), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.864 (n=43), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.671 (n=35), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.910 (n=35), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.879 (n=42), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.887 (n=41), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.913 (n=41), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.805 (n=48), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.888 (n=45), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.762 (n=23), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.780 (n=30), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.886 (n=38), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.868 (n=37), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.740 (n=32), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.769 (n=37), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.869 (n=51), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.739 (n=35), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.700 (n=31), ds(MAX leaf-parents)=1.000 (n=0)
+Depth= 4 (grid=16x16):
+  BFS              N=    222.3+/-    5.3 SR=100.0% | Dd=1.000 | ds=1.000 | BEI=0.0358 | ABEI=0.0358 | ACP=222.3 vs g-=16.0[OK] | q*=0.950 | C/C*=1.432
+  Dijkstra         N=    220.2+/-    6.5 SR=100.0% | Dd=0.678 | ds=0.964 | BEI=0.0365 | ABEI=0.0248 | ACP=149.2 vs g-=16.0[OK] | q*=0.644 | C/C*=1.000
+  A*               N=    216.9+/-    9.8 SR=100.0% | Dd=0.679 | ds=0.983 | BEI=0.0372 | ABEI=0.0253 | ACP=147.3 vs g-=16.0[OK] | q*=0.645 | C/C*=1.000
+  WA*(1.5)         N=    212.3+/-   13.9 SR=100.0% | Dd=0.775 | ds=0.986 | BEI=0.0254 | ABEI=0.0197 | ACP=164.5 vs g-=16.0[OK] | q*=0.736 | C/C*=1.000
+  WA*(2.0)         N=    203.1+/-   20.5 SR=100.0% | Dd=0.836 | ds=0.989 | BEI=0.0201 | ABEI=0.0168 | ACP=169.8 vs g-=16.0[OK] | q*=0.794 | C/C*=1.000
+  GBFS             N=     37.0+/-    5.1 SR=100.0% | Dd=0.194 | ds=0.994 | BEI=0.3498 | ABEI=0.0678 | ACP=7.2 vs g-=16.0[VIOLATED] | q*=0.184 | C/C*=1.548
+  BiDijkstra       N=    155.6+/-   17.8 SR=100.0% | Dd=0.794 | ds=0.947 | BEI=0.0553 | ABEI=0.0439 | ACP=123.5 vs g-=16.0[OK] | q*=0.754 | C/C*=0.976
+  RBFS             N=  47617.4+/-16643.5 SR=100.0% | Dd=0.679 | ds=0.855 | BEI=0.0001 | ABEI=0.0001 | ACP=32340.2 vs g-=16.0[OK] | q*=0.645 | C/C*=1.000
+  IDA*             N=8636986.9+/-2468729.1 SR=30.0% | Dd=0.692 | ds=0.989 | BEI=0.0000 | ABEI=0.0000 | ACP=5973975.7 vs g-=16.0[OK] | q*=0.657 | C/C*=1.000
+  AlphaBeta        N=    192.5+/-   37.1 SR=100.0% | Dd=1.000 | ds=0.809 | BEI=0.0068 | ABEI=0.0068 | ACP=192.5 vs g-=16.0[OK] | q*=0.950 | C/C*=NaN
+  NoisyPrune(p=0.3) N=    212.9+/-   11.2 SR=80.0% | Dd=0.604 | ds=0.992 | BEI=0.0308 | ABEI=0.0186 | ACP=128.5 vs g-=16.0[OK] | q*=0.574 | C/C*=1.169
+  NoisyPrune(p=0.6) N=    173.8+/-   64.8 SR=50.0% | Dd=0.440 | ds=0.981 | BEI=0.0257 | ABEI=0.0113 | ACP=76.4 vs g-=16.0[OK] | q*=0.418 | C/C*=1.564
+
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.799 (n=335), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.840 (n=410), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.833 (n=321), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.814 (n=340), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.834 (n=351), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.809 (n=194), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.801 (n=233), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.845 (n=366), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.833 (n=395), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.844 (n=255), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.832 (n=405), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.863 (n=367), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.795 (n=324), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.824 (n=417), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.824 (n=328), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.843 (n=314), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.829 (n=267), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.868 (n=283), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.843 (n=296), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.826 (n=341), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.843 (n=270), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.812 (n=284), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.830 (n=315), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.865 (n=339), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.819 (n=242), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.806 (n=185), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.795 (n=268), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.794 (n=312), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.816 (n=256), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.875 (n=315), ds(MAX leaf-parents)=1.000 (n=0)
+Depth= 6 (grid=24x24):
+  BFS              N=    497.6+/-    8.8 SR=100.0% | Dd=1.000 | ds=1.000 | BEI=0.0211 | ABEI=0.0211 | ACP=497.6 vs g-=11.2[OK] | q*=0.950 | C/C*=1.460
+  Dijkstra         N=    495.6+/-    9.6 SR=100.0% | Dd=0.691 | ds=0.974 | BEI=0.0213 | ABEI=0.0147 | ACP=342.5 vs g-=11.4[OK] | q*=0.656 | C/C*=1.000
+  A*               N=    491.3+/-   14.1 SR=100.0% | Dd=0.692 | ds=0.988 | BEI=0.0215 | ABEI=0.0149 | ACP=339.7 vs g-=11.6[OK] | q*=0.657 | C/C*=1.000
+  WA*(1.5)         N=    483.8+/-   23.3 SR=100.0% | Dd=0.784 | ds=0.991 | BEI=0.0146 | ABEI=0.0115 | ACP=379.4 vs g-=11.8[OK] | q*=0.745 | C/C*=1.000
+  WA*(2.0)         N=    466.7+/-   40.4 SR=100.0% | Dd=0.841 | ds=0.992 | BEI=0.0115 | ABEI=0.0096 | ACP=392.3 vs g-=12.1[OK] | q*=0.799 | C/C*=1.000
+  GBFS             N=     55.8+/-    4.0 SR=100.0% | Dd=0.152 | ds=0.997 | BEI=0.3190 | ABEI=0.0485 | ACP=8.5 vs g-=3.4[OK] | q*=0.144 | C/C*=1.621
+  BiDijkstra       N=    359.0+/-   29.4 SR=100.0% | Dd=0.792 | ds=0.961 | BEI=0.0311 | ABEI=0.0246 | ACP=284.5 vs g-=12.3[OK] | q*=0.753 | C/C*=0.983
+  RBFS             N= 310305.7+/-90763.7 SR=100.0% | Dd=0.692 | ds=0.856 | BEI=0.0000 | ABEI=0.0000 | ACP=214607.0 vs g-=276.7[OK] | q*=0.657 | C/C*=1.000
+  IDA*             N=10000020.9+/-    6.9 SR= 0.0% | Dd=1.000 | ds=0.990 | BEI=0.0000 | ABEI=0.0000 | ACP=10000020.9 vs g-=1.6[OK] | q*=0.950 | C/C*=NaN
+  AlphaBeta        N=   1589.5+/-  300.6 SR=100.0% | Dd=1.000 | ds=0.828 | BEI=0.0008 | ABEI=0.0008 | ACP=1589.5 vs g-=563.0[OK] | q*=0.950 | C/C*=NaN
+  NoisyPrune(p=0.3) N=    470.6+/-   87.8 SR=83.3% | Dd=0.598 | ds=0.995 | BEI=0.0193 | ABEI=0.0116 | ACP=281.4 vs g-=10.8[OK] | q*=0.568 | C/C*=1.183
+  NoisyPrune(p=0.6) N=    336.0+/-  202.2 SR=43.3% | Dd=0.460 | ds=0.979 | BEI=0.0157 | ABEI=0.0072 | ACP=154.6 vs g-=7.2[OK] | q*=0.437 | C/C*=1.536
+
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.824 (n=3012), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.821 (n=2137), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.822 (n=2740), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.843 (n=2366), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.815 (n=1867), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.812 (n=1458), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.829 (n=2390), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.822 (n=2875), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.824 (n=2507), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.825 (n=3175), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.833 (n=2693), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.835 (n=3268), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.825 (n=2503), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.813 (n=2304), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.832 (n=1714), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.823 (n=3008), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.826 (n=2441), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.827 (n=2406), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.815 (n=2245), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.833 (n=1792), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.834 (n=2055), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.818 (n=2150), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.834 (n=2746), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.831 (n=3340), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.839 (n=2280), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.853 (n=2717), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.816 (n=2149), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.843 (n=2990), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.843 (n=2547), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.844 (n=3500), ds(MAX leaf-parents)=1.000 (n=0)
+Depth= 8 (grid=32x32):
+  BFS              N=    879.6+/-    8.9 SR=100.0% | Dd=1.000 | ds=1.000 | BEI=0.0146 | ABEI=0.0146 | ACP=879.6 vs g-=15.7[OK] | q*=0.950 | C/C*=1.416
+  Dijkstra         N=    878.0+/-    8.9 SR=100.0% | Dd=0.692 | ds=0.981 | BEI=0.0148 | ABEI=0.0102 | ACP=607.8 vs g-=15.9[OK] | q*=0.658 | C/C*=1.000
+  A*               N=    874.7+/-    9.8 SR=100.0% | Dd=0.692 | ds=0.991 | BEI=0.0148 | ABEI=0.0103 | ACP=605.5 vs g-=16.3[OK] | q*=0.658 | C/C*=1.000
+  WA*(1.5)         N=    866.4+/-   20.7 SR=100.0% | Dd=0.796 | ds=0.993 | BEI=0.0100 | ABEI=0.0080 | ACP=689.5 vs g-=16.6[OK] | q*=0.756 | C/C*=1.000
+  WA*(2.0)         N=    846.1+/-   48.2 SR=100.0% | Dd=0.853 | ds=0.994 | BEI=0.0077 | ABEI=0.0066 | ACP=722.1 vs g-=17.4[OK] | q*=0.811 | C/C*=1.000
+  GBFS             N=     79.0+/-   14.5 SR=100.0% | Dd=0.123 | ds=0.993 | BEI=0.2871 | ABEI=0.0355 | ACP=9.8 vs g-=4.5[OK] | q*=0.117 | C/C*=1.623
+  BiDijkstra       N=    639.3+/-   44.2 SR=100.0% | Dd=0.790 | ds=0.971 | BEI=0.0213 | ABEI=0.0169 | ACP=505.1 vs g-=16.9[OK] | q*=0.751 | C/C*=0.989
+  RBFS             N=1263091.2+/-349423.8 SR=93.3% | Dd=0.694 | ds=0.857 | BEI=0.0000 | ABEI=0.0000 | ACP=877111.2 vs g-=703.6[OK] | q*=0.660 | C/C*=1.000
+  IDA*             N=10000020.2+/-    5.9 SR= 0.0% | Dd=1.000 | ds=0.991 | BEI=0.0000 | ABEI=0.0000 | ACP=10000020.2 vs g-=1.3[OK] | q*=0.950 | C/C*=NaN
+  AlphaBeta        N=  12965.5+/- 2574.6 SR=100.0% | Dd=1.000 | ds=0.828 | BEI=0.0001 | ABEI=0.0001 | ACP=12965.5 vs g-=4536.5[OK] | q*=0.950 | C/C*=NaN
+  NoisyPrune(p=0.3) N=    869.2+/-   10.9 SR=90.0% | Dd=0.575 | ds=0.996 | BEI=0.0136 | ABEI=0.0078 | ACP=499.8 vs g-=16.7[OK] | q*=0.546 | C/C*=1.179
+  NoisyPrune(p=0.6) N=    668.1+/-  332.9 SR=40.0% | Dd=0.432 | ds=0.985 | BEI=0.0090 | ABEI=0.0039 | ACP=288.6 vs g-=14.8[OK] | q*=0.410 | C/C*=1.545
+
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.833 (n=16905), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.830 (n=16273), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.827 (n=14259), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.834 (n=18258), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.819 (n=12426), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.826 (n=8805), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.826 (n=9737), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.829 (n=15963), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.823 (n=20431), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.836 (n=16019), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.834 (n=13991), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.833 (n=19644), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.826 (n=16014), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.836 (n=18437), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.828 (n=17516), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.825 (n=15130), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.828 (n=20418), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.829 (n=19257), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.827 (n=17323), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.831 (n=14836), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.834 (n=20044), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.828 (n=12947), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.830 (n=20601), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.825 (n=13090), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.830 (n=16756), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.829 (n=16092), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.823 (n=13207), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.829 (n=17541), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.826 (n=17497), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.834 (n=14862), ds(MAX leaf-parents)=1.000 (n=0)
+Depth=10 (grid=40x40):
+  BFS              N=   1366.7+/-   11.9 SR=100.0% | Dd=1.000 | ds=1.000 | BEI=0.0111 | ABEI=0.0111 | ACP=1366.7 vs g-=20.3[OK] | q*=0.950 | C/C*=1.495
+  Dijkstra         N=   1364.8+/-   12.9 SR=100.0% | Dd=0.690 | ds=0.984 | BEI=0.0113 | ABEI=0.0078 | ACP=942.2 vs g-=20.5[OK] | q*=0.656 | C/C*=1.000
+  A*               N=   1360.8+/-   14.8 SR=100.0% | Dd=0.692 | ds=0.993 | BEI=0.0113 | ABEI=0.0078 | ACP=941.1 vs g-=21.0[OK] | q*=0.657 | C/C*=1.000
+  WA*(1.5)         N=   1353.9+/-   18.6 SR=100.0% | Dd=0.790 | ds=0.994 | BEI=0.0076 | ABEI=0.0060 | ACP=1069.2 vs g-=21.5[OK] | q*=0.750 | C/C*=1.000
+  WA*(2.0)         N=   1325.2+/-   41.8 SR=100.0% | Dd=0.850 | ds=0.995 | BEI=0.0058 | ABEI=0.0050 | ACP=1126.5 vs g-=22.4[OK] | q*=0.808 | C/C*=1.000
+  GBFS             N=     95.1+/-    9.2 SR=100.0% | Dd=0.114 | ds=0.997 | BEI=0.2796 | ABEI=0.0320 | ACP=10.9 vs g-=4.9[OK] | q*=0.109 | C/C*=1.678
+  BiDijkstra       N=   1008.5+/-   65.6 SR=100.0% | Dd=0.791 | ds=0.975 | BEI=0.0159 | ABEI=0.0126 | ACP=798.0 vs g-=22.0[OK] | q*=0.752 | C/C*=0.991
+  RBFS             N=2000000.0+/-    0.0 SR= 0.0% | Dd=1.000 | ds=0.866 | BEI=0.0000 | ABEI=0.0000 | ACP=2000000.0 vs g-=549.2[OK] | q*=0.950 | C/C*=NaN
+  IDA*             N=10000020.5+/-    5.7 SR= 0.0% | Dd=1.000 | ds=0.992 | BEI=0.0000 | ABEI=0.0000 | ACP=10000020.5 vs g-=1.2[OK] | q*=0.950 | C/C*=NaN
+  AlphaBeta        N=  83760.9+/-15426.0 SR=100.0% | Dd=1.000 | ds=0.829 | BEI=0.0000 | ABEI=0.0000 | ACP=83760.9 vs g-=25922.4[OK] | q*=0.950 | C/C*=NaN
+  NoisyPrune(p=0.3) N=   1347.9+/-   19.1 SR=90.0% | Dd=0.600 | ds=0.997 | BEI=0.0104 | ABEI=0.0062 | ACP=808.8 vs g-=21.7[OK] | q*=0.570 | C/C*=1.177
+  NoisyPrune(p=0.6) N=    998.1+/-  542.8 SR=40.0% | Dd=0.467 | ds=0.987 | BEI=0.0067 | ABEI=0.0031 | ACP=466.1 vs g-=19.4[OK] | q*=0.444 | C/C*=1.502
+
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.829 (n=91287), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.828 (n=83582), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.829 (n=97209), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.826 (n=83934), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.830 (n=85521), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.829 (n=97054), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.830 (n=65788), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.827 (n=92601), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.829 (n=75028), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.827 (n=80128), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.829 (n=108646), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.828 (n=99649), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.829 (n=83280), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.829 (n=83705), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.829 (n=78043), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.830 (n=100519), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.829 (n=78011), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.829 (n=89450), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.826 (n=62278), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.830 (n=108817), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.829 (n=98953), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.828 (n=109053), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.827 (n=122008), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.831 (n=80435), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.828 (n=86634), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.827 (n=77104), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.830 (n=103800), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.828 (n=101400), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.829 (n=99577), ds(MAX leaf-parents)=1.000 (n=0)
+   [AlphaBeta detail] ds(MIN leaf-parents)=0.826 (n=74474), ds(MAX leaf-parents)=1.000 (n=0)
+Depth=12 (grid=48x48):
+  BFS              N=   1970.3+/-   17.4 SR=100.0% | Dd=1.000 | ds=1.000 | BEI=0.0088 | ABEI=0.0088 | ACP=1970.3 vs g-=25.1[OK] | q*=0.950 | C/C*=1.468
+  Dijkstra         N=   1968.3+/-   17.5 SR=100.0% | Dd=0.678 | ds=0.986 | BEI=0.0089 | ABEI=0.0060 | ACP=1333.7 vs g-=25.4[OK] | q*=0.644 | C/C*=1.000
+  A*               N=   1965.4+/-   19.3 SR=100.0% | Dd=0.675 | ds=0.994 | BEI=0.0089 | ABEI=0.0060 | ACP=1326.9 vs g-=26.0[OK] | q*=0.641 | C/C*=1.000
+  WA*(1.5)         N=   1958.6+/-   26.4 SR=100.0% | Dd=0.779 | ds=0.995 | BEI=0.0060 | ABEI=0.0047 | ACP=1524.9 vs g-=26.7[OK] | q*=0.740 | C/C*=1.000
+  WA*(2.0)         N=   1930.0+/-   61.2 SR=100.0% | Dd=0.835 | ds=0.996 | BEI=0.0046 | ABEI=0.0038 | ACP=1611.5 vs g-=27.9[OK] | q*=0.793 | C/C*=1.000
+  GBFS             N=    114.7+/-   14.0 SR=100.0% | Dd=0.112 | ds=0.997 | BEI=0.2697 | ABEI=0.0301 | ACP=12.8 vs g-=5.3[OK] | q*=0.106 | C/C*=1.651
+  BiDijkstra       N=   1464.6+/-   81.2 SR=100.0% | Dd=0.775 | ds=0.979 | BEI=0.0125 | ABEI=0.0097 | ACP=1134.4 vs g-=27.4[OK] | q*=0.736 | C/C*=0.993
+  RBFS             N=2000000.0+/-    0.0 SR= 0.0% | Dd=1.000 | ds=0.877 | BEI=0.0000 | ABEI=0.0000 | ACP=2000000.0 vs g-=271.3[OK] | q*=0.950 | C/C*=NaN
+  IDA*             N=10000020.9+/-    5.2 SR= 0.0% | Dd=1.000 | ds=0.993 | BEI=0.0000 | ABEI=0.0000 | ACP=10000020.9 vs g-=1.2[OK] | q*=0.950 | C/C*=NaN
+  AlphaBeta        N= 467448.9+/-71119.0 SR=100.0% | Dd=1.000 | ds=0.829 | BEI=0.0000 | ABEI=0.0000 | ACP=467448.9 vs g-=124573.9[OK] | q*=0.950 | C/C*=NaN
+  NoisyPrune(p=0.3) N=   1888.1+/-  350.0 SR=86.7% | Dd=0.579 | ds=0.997 | BEI=0.0083 | ABEI=0.0048 | ACP=1093.5 vs g-=25.8[OK] | q*=0.550 | C/C*=1.194
+  NoisyPrune(p=0.6) N=   1563.7+/-  697.2 SR=40.0% | Dd=0.452 | ds=0.992 | BEI=0.0050 | ABEI=0.0023 | ACP=706.7 vs g-=26.8[OK] | q*=0.429 | C/C*=1.497
+
+================================================================================
+ TABLE: ESTIMATED BETA PARAMETERS (b=4)
+ Algorithm        |     beta |      alpha |     R2
+ ------------------------------------------------
+ BFS              |   0.1938 |    89.1242 | 0.9746
+ Dijkstra         |   0.1945 |    88.1188 | 0.9741
+ A*               |   0.1957 |    86.4039 | 0.9738
+ WA*(1.5)         |   0.1974 |    83.9195 | 0.9738
+ WA*(2.0)         |   0.2001 |    79.2086 | 0.9738
+ GBFS             |   0.1008 |    23.1516 | 0.9658
+ BiDijkstra       |   0.1990 |    61.0907 | 0.9739
+ RBFS             |   0.3368 | 14200.4513 | 0.8461
+ IDA*             |   0.0106 | 8636986.8367 | 0.5000
+ AlphaBeta        |   0.7053 |     4.3783 | 0.9980
+ NoisyPrune(p=0.3) |   0.1954 |    84.7293 | 0.9718
+ NoisyPrune(p=0.6) |   0.1978 |    63.7405 | 0.9863
+
+================================================================================
+ TABLE: COMPLEXITY PROFILE BOUNDS
+ BFS (beta=0.1938):
+     d|        g-|       gMu|      Nbar|        g+|In[g-,g+]?
+     4|      16.0|      16.7|     222.3|      32.0|no
+     6|      11.2|      12.8|     497.6|      33.8|no
+     8|      15.7|      14.7|     879.6|      53.8|no
+    10|      20.3|      15.4|    1366.7|      78.0|no
+    12|      25.1|      15.2|    1970.3|     106.7|no
+  -> All OK: NO
+
+ Dijkstra (beta=0.1945):
+     d|        g-|       gMu|      Nbar|        g+|In[g-,g+]?
+     4|      16.0|      16.7|     220.2|      32.0|no
+     6|      11.4|      12.9|     495.6|      34.2|no
+     8|      15.9|      14.8|     878.0|      54.4|no
+    10|      20.5|      15.5|    1364.8|      78.8|no
+    12|      25.4|      15.3|    1968.3|     107.6|no
+  -> All OK: NO
+
+ A* (beta=0.1957):
+     d|        g-|       gMu|      Nbar|        g+|In[g-,g+]?
+     4|      16.0|      16.7|     216.9|      32.0|no
+     6|      11.6|      13.1|     491.3|      34.6|no
+     8|      16.3|      15.1|     874.7|      55.3|no
+    10|      21.0|      15.7|    1360.8|      79.9|no
+    12|      26.0|      15.5|    1965.4|     109.2|no
+  -> All OK: NO
+
+ WA*(1.5) (beta=0.1974):
+     d|        g-|       gMu|      Nbar|        g+|In[g-,g+]?
+     4|      16.0|      16.7|     212.3|      32.0|no
+     6|      11.8|      13.2|     483.8|      35.0|no
+     8|      16.6|      15.3|     866.4|      56.2|no
+    10|      21.5|      16.0|    1353.9|      81.5|no
+    12|      26.7|      15.8|    1958.6|     111.4|no
+  -> All OK: NO
+
+ WA*(2.0) (beta=0.2001):
+     d|        g-|       gMu|      Nbar|        g+|In[g-,g+]?
+     4|      16.0|      16.7|     203.1|      32.0|no
+     6|      12.1|      13.5|     466.7|      35.7|no
+     8|      17.4|      15.8|     846.1|      57.9|no
+    10|      22.4|      16.5|    1325.2|      84.0|no
+    12|      27.9|      16.4|    1930.0|     115.1|no
+  -> All OK: NO
+
+ GBFS (beta=0.1008):
+     d|        g-|       gMu|      Nbar|        g+|In[g-,g+]?
+     4|      16.0|      16.7|      37.0|      32.0|no
+     6|       3.4|       7.0|      55.8|      18.5|no
+     8|       4.5|       7.2|      79.0|      26.4|no
+    10|       4.9|       6.6|      95.1|      33.3|no
+    12|       5.3|       5.8|     114.7|      41.0|no
+  -> All OK: NO
+
+ BiDijkstra (beta=0.1990):
+     d|        g-|       gMu|      Nbar|        g+|In[g-,g+]?
+     4|      16.0|      16.7|     155.6|      32.0|no
+     6|      12.3|      13.6|     359.0|      36.0|no
+     8|      16.9|      15.5|     639.3|      56.7|no
+    10|      22.0|      16.3|    1008.5|      82.8|no
+    12|      27.4|      16.2|    1464.6|     113.6|no
+  -> All OK: NO
+
+ RBFS (beta=0.3368):
+     d|        g-|       gMu|      Nbar|        g+|In[g-,g+]?
+     4|      16.0|      16.7|   47617.4|      32.0|no
+     6|     276.7|     171.6|  310305.7|     455.0|no
+     8|     703.6|     342.8| 1263091.2|    1257.9|no
+    10|     549.2|     231.1| 2000000.0|    1173.8|no
+    12|     271.3|     103.4| 2000000.0|     727.2|no
+  -> All OK: NO
+
+ IDA* (beta=0.0106):
+     d|        g-|       gMu|      Nbar|        g+|In[g-,g+]?
+     4|      16.0|      16.7| 8636986.9|      32.0|no
+     6|       1.6|       8.3|10000020.9|      22.0|no
+     8|       1.3|      10.2|10000020.2|      37.3|no
+    10|       1.2|      11.3|10000020.5|      57.3|no
+    12|       1.2|      11.7|10000020.9|      82.0|no
+  -> All OK: NO
+
+ AlphaBeta (beta=0.7053):
+     d|        g-|       gMu|      Nbar|        g+|In[g-,g+]?
+     4|      16.0|      16.7|     192.5|      32.0|no
+     6|     563.0|     325.7|    1589.5|     863.5|no
+     8|    4536.5|    1899.0|   12965.5|    6969.2|no
+    10|   25922.4|    7998.4|   83760.9|   40626.7|no
+    12|  124573.9|   28404.4|  467448.9|  199691.2|no
+  -> All OK: NO
+
+ NoisyPrune(p=0.3) (beta=0.1954):
+     d|        g-|       gMu|      Nbar|        g+|In[g-,g+]?
+     4|      16.0|      16.7|     212.9|      32.0|no
+     6|      10.8|      12.4|     470.6|      33.0|no
+     8|      16.7|      15.3|     869.2|      56.2|no
+    10|      21.7|      16.1|    1347.9|      81.8|no
+    12|      25.8|      15.5|    1888.1|     108.7|no
+  -> All OK: NO
+
+ NoisyPrune(p=0.6) (beta=0.1978):
+     d|        g-|       gMu|      Nbar|        g+|In[g-,g+]?
+     4|      16.0|      16.7|     173.8|      32.0|no
+     6|       7.2|       9.7|     336.0|      25.7|no
+     8|      14.8|      14.1|     668.1|      51.7|no
+    10|      19.4|      14.9|     998.1|      75.6|no
+    12|      26.8|      15.9|    1563.7|     111.9|no
+  -> All OK: NO
+
+================================================================================
+ TABLE: ACP BOUND  Nbar*Dd >= g-(beta,d)   [ratios]
+ Algorithm       |   d|      Nbar|      Dd|   Nbar*Dd|        g-|   ratio|OK?
+ --------------------------------------------------------------------------------
+ BFS             |   4|     222.3|   1.000|    222.27|     16.00|   13.89|OK
+ Dijkstra        |   4|     220.2|   0.678|    149.20|     16.00|    9.33|OK
+ A*              |   4|     216.9|   0.679|    147.26|     16.00|    9.20|OK
+ WA*(1.5)        |   4|     212.3|   0.775|    164.54|     16.00|   10.28|OK
+ WA*(2.0)        |   4|     203.1|   0.836|    169.76|     16.00|   10.61|OK
+ GBFS            |   4|      37.0|   0.194|      7.18|     16.00|    0.45|VIOLATED
+ BiDijkstra      |   4|     155.6|   0.794|    123.49|     16.00|    7.72|OK
+ RBFS            |   4|   47617.4|   0.679|  32340.21|     16.00| 2021.26|OK
+ IDA*            |   4| 8636986.9|   0.692|5973975.70|     16.00|373373.48|OK
+ AlphaBeta       |   4|     192.5|   1.000|    192.50|     16.00|   12.03|OK
+ NoisyPrune(p=0.3)|   4|     212.9|   0.604|    128.54|     16.00|    8.03|OK
+ NoisyPrune(p=0.6)|   4|     173.8|   0.440|     76.37|     16.00|    4.77|OK
+ BFS             |   6|     497.6|   1.000|    497.60|     11.22|   44.35|OK
+ Dijkstra        |   6|     495.6|   0.691|    342.46|     11.41|   30.02|OK
+ A*              |   6|     491.3|   0.692|    339.74|     11.62|   29.23|OK
+ WA*(1.5)        |   6|     483.8|   0.784|    379.44|     11.83|   32.08|OK
+ WA*(2.0)        |   6|     466.7|   0.841|    392.33|     12.14|   32.31|OK
+ GBFS            |   6|      55.8|   0.152|      8.49|      3.42|    2.48|OK
+ BiDijkstra      |   6|     359.0|   0.792|    284.50|     12.29|   23.14|OK
+ RBFS            |   6|  310305.7|   0.692| 214606.97|    276.74|  775.48|OK
+ IDA*            |   6|10000020.9|   1.000|10000020.90|      1.55|6442953.06|OK
+ AlphaBeta       |   6|    1589.5|   1.000|   1589.53|    563.01|    2.82|OK
+ NoisyPrune(p=0.3)|   6|     470.6|   0.598|    281.36|     10.80|   26.06|OK
+ NoisyPrune(p=0.6)|   6|     336.0|   0.460|    154.56|      7.23|   21.38|OK
+ BFS             |   8|     879.6|   1.000|    879.57|     15.66|   56.17|OK
+ Dijkstra        |   8|     878.0|   0.692|    607.78|     15.90|   38.22|OK
+ A*              |   8|     874.7|   0.692|    605.48|     16.27|   37.22|OK
+ WA*(1.5)        |   8|     866.4|   0.796|    689.49|     16.65|   41.41|OK
+ WA*(2.0)        |   8|     846.1|   0.853|    722.11|     17.36|   41.60|OK
+ GBFS            |   8|      79.0|   0.123|      9.75|      4.55|    2.14|OK
+ BiDijkstra      |   8|     639.3|   0.790|    505.14|     16.89|   29.91|OK
+ RBFS            |   8| 1263091.2|   0.694| 877111.18|    703.62| 1246.57|OK
+ IDA*            |   8|10000020.2|   1.000|10000020.20|      1.34|7459739.20|OK
+ AlphaBeta       |   8|   12965.5|   1.000|  12965.50|   4536.46|    2.86|OK
+ NoisyPrune(p=0.3)|   8|     869.2|   0.575|    499.85|     16.67|   29.99|OK
+ NoisyPrune(p=0.6)|   8|     668.1|   0.432|    288.60|     14.78|   19.53|OK
+ BFS             |  10|    1366.7|   1.000|   1366.73|     20.27|   67.42|OK
+ Dijkstra        |  10|    1364.8|   0.690|    942.16|     20.54|   45.86|OK
+ A*              |  10|    1360.8|   0.692|    941.09|     20.97|   44.87|OK
+ WA*(1.5)        |  10|    1353.9|   0.790|   1069.23|     21.55|   49.62|OK
+ WA*(2.0)        |  10|    1325.2|   0.850|   1126.47|     22.45|   50.18|OK
+ GBFS            |  10|      95.1|   0.114|     10.89|      4.90|    2.22|OK
+ BiDijkstra      |  10|    1008.5|   0.791|    797.96|     22.03|   36.23|OK
+ RBFS            |  10| 2000000.0|   1.000|2000000.00|    549.19| 3641.75|OK
+ IDA*            |  10|10000020.5|   1.000|10000020.47|      1.25|8026809.61|OK
+ AlphaBeta       |  10|   83760.9|   1.000|  83760.87|  25922.41|    3.23|OK
+ NoisyPrune(p=0.3)|  10|    1347.9|   0.600|    808.76|     21.65|   37.35|OK
+ NoisyPrune(p=0.6)|  10|     998.1|   0.467|    466.13|     19.41|   24.01|OK
+ BFS             |  12|    1970.3|   1.000|   1970.33|     25.15|   78.35|OK
+ Dijkstra        |  12|    1968.3|   0.678|   1333.74|     25.44|   52.42|OK
+ A*              |  12|    1965.4|   0.675|   1326.92|     25.95|   51.13|OK
+ WA*(1.5)        |  12|    1958.6|   0.779|   1524.92|     26.67|   57.17|OK
+ WA*(2.0)        |  12|    1930.0|   0.835|   1611.51|     27.89|   57.78|OK
+ GBFS            |  12|     114.7|   0.112|     12.80|      5.35|    2.39|OK
+ BiDijkstra      |  12|    1464.6|   0.775|   1134.37|     27.40|   41.41|OK
+ RBFS            |  12| 2000000.0|   1.000|2000000.00|    271.31| 7371.71|OK
+ IDA*            |  12|10000020.9|   1.000|10000020.93|      1.19|8387538.81|OK
+ AlphaBeta       |  12|  467448.9|   1.000| 467448.90| 124573.88|    3.75|OK
+ NoisyPrune(p=0.3)|  12|    1888.1|   0.579|   1093.48|     25.80|   42.38|OK
+ NoisyPrune(p=0.6)|  12|    1563.7|   0.452|    706.72|     26.84|   26.34|OK
+
+================================================================================
+ TABLE: PCCT  ds_obs >= ds_cert = 1/(1+eps_h)
+ Algorithm       |   d|    eps_h|  ds_cert|   ds_obs|       Dd|OK?
+ ----------------------------------------------------------------------
+ BFS             |   4|     0.00|    1.000|    1.000|    1.000|OK
+ Dijkstra        |   4|     0.00|    1.000|    0.964|    0.678|FAIL
+ A*              |   4|     0.00|    1.000|    0.983|    0.679|FAIL
+ WA*(1.5)        |   4|     0.50|    0.667|    0.986|    0.775|OK
+ WA*(2.0)        |   4|     1.00|    0.500|    0.989|    0.836|OK
+ GBFS            |   4|      inf|    0.000|    0.994|    0.194|OK
+ BiDijkstra      |   4|     0.00|    1.000|    0.947|    0.794|FAIL
+ RBFS            |   4|     0.00|    1.000|    0.855|    0.679|FAIL
+ IDA*            |   4|     0.00|    1.000|    0.989|    0.692|FAIL
+ AlphaBeta       |   4|     0.00|    1.000|    0.809|    1.000|FAIL
+ NoisyPrune(p=0.3)|   4|     0.00|    1.000|    0.992|    0.604|FAIL
+ NoisyPrune(p=0.6)|   4|     0.00|    1.000|    0.981|    0.440|FAIL
+ BFS             |   6|     0.00|    1.000|    1.000|    1.000|OK
+ Dijkstra        |   6|     0.00|    1.000|    0.974|    0.691|FAIL
+ A*              |   6|     0.00|    1.000|    0.988|    0.692|FAIL
+ WA*(1.5)        |   6|     0.50|    0.667|    0.991|    0.784|OK
+ WA*(2.0)        |   6|     1.00|    0.500|    0.992|    0.841|OK
+ GBFS            |   6|      inf|    0.000|    0.997|    0.152|OK
+ BiDijkstra      |   6|     0.00|    1.000|    0.961|    0.792|FAIL
+ RBFS            |   6|     0.00|    1.000|    0.856|    0.692|FAIL
+ IDA*            |   6|     0.00|    1.000|    0.990|    1.000|FAIL
+ AlphaBeta       |   6|     0.00|    1.000|    0.828|    1.000|FAIL
+ NoisyPrune(p=0.3)|   6|     0.00|    1.000|    0.995|    0.598|FAIL
+ NoisyPrune(p=0.6)|   6|     0.00|    1.000|    0.979|    0.460|FAIL
+ BFS             |   8|     0.00|    1.000|    1.000|    1.000|OK
+ Dijkstra        |   8|     0.00|    1.000|    0.981|    0.692|FAIL
+ A*              |   8|     0.00|    1.000|    0.991|    0.692|FAIL
+ WA*(1.5)        |   8|     0.50|    0.667|    0.993|    0.796|OK
+ WA*(2.0)        |   8|     1.00|    0.500|    0.994|    0.853|OK
+ GBFS            |   8|      inf|    0.000|    0.993|    0.123|OK
+ BiDijkstra      |   8|     0.00|    1.000|    0.971|    0.790|FAIL
+ RBFS            |   8|     0.00|    1.000|    0.857|    0.694|FAIL
+ IDA*            |   8|     0.00|    1.000|    0.991|    1.000|FAIL
+ AlphaBeta       |   8|     0.00|    1.000|    0.828|    1.000|FAIL
+ NoisyPrune(p=0.3)|   8|     0.00|    1.000|    0.996|    0.575|FAIL
+ NoisyPrune(p=0.6)|   8|     0.00|    1.000|    0.985|    0.432|FAIL
+ BFS             |  10|     0.00|    1.000|    1.000|    1.000|OK
+ Dijkstra        |  10|     0.00|    1.000|    0.984|    0.690|FAIL
+ A*              |  10|     0.00|    1.000|    0.993|    0.692|FAIL
+ WA*(1.5)        |  10|     0.50|    0.667|    0.994|    0.790|OK
+ WA*(2.0)        |  10|     1.00|    0.500|    0.995|    0.850|OK
+ GBFS            |  10|      inf|    0.000|    0.997|    0.114|OK
+ BiDijkstra      |  10|     0.00|    1.000|    0.975|    0.791|FAIL
+ RBFS            |  10|     0.00|    1.000|    0.866|    1.000|FAIL
+ IDA*            |  10|     0.00|    1.000|    0.992|    1.000|FAIL
+ AlphaBeta       |  10|     0.00|    1.000|    0.829|    1.000|FAIL
+ NoisyPrune(p=0.3)|  10|     0.00|    1.000|    0.997|    0.600|FAIL
+ NoisyPrune(p=0.6)|  10|     0.00|    1.000|    0.987|    0.467|FAIL
+ BFS             |  12|     0.00|    1.000|    1.000|    1.000|OK
+ Dijkstra        |  12|     0.00|    1.000|    0.986|    0.678|FAIL
+ A*              |  12|     0.00|    1.000|    0.994|    0.675|FAIL
+ WA*(1.5)        |  12|     0.50|    0.667|    0.995|    0.779|OK
+ WA*(2.0)        |  12|     1.00|    0.500|    0.996|    0.835|OK
+ GBFS            |  12|      inf|    0.000|    0.997|    0.112|OK
+ BiDijkstra      |  12|     0.00|    1.000|    0.979|    0.775|FAIL
+ RBFS            |  12|     0.00|    1.000|    0.877|    1.000|FAIL
+ IDA*            |  12|     0.00|    1.000|    0.993|    1.000|FAIL
+ AlphaBeta       |  12|     0.00|    1.000|    0.829|    1.000|FAIL
+ NoisyPrune(p=0.3)|  12|     0.00|    1.000|    0.997|    0.579|FAIL
+ NoisyPrune(p=0.6)|  12|     0.00|    1.000|    0.992|    0.452|FAIL
+
+================================================================================
+ TABLE: ABEI vs BEI at d=10
+ Algorithm       |     Nbar|     Dd|     BEI|    ABEI|   ratio|ABEI vs BEI
+ ----------------------------------------------------------------------
+ GBFS            |     95.1|  0.114|  0.2796|  0.0320|     8.7|DOWN
+ BiDijkstra      |   1008.5|  0.791|  0.0159|  0.0126|     1.3|DOWN
+ BFS             |   1366.7|  1.000|  0.0111|  0.0111|     1.0|=
+ A*              |   1360.8|  0.692|  0.0113|  0.0078|     1.4|DOWN
+ Dijkstra        |   1364.8|  0.690|  0.0113|  0.0078|     1.4|DOWN
+ NoisyPrune(p=0.3)|   1347.9|  0.600|  0.0104|  0.0062|     1.7|DOWN
+ WA*(1.5)        |   1353.9|  0.790|  0.0076|  0.0060|     1.3|DOWN
+ WA*(2.0)        |   1325.2|  0.850|  0.0058|  0.0050|     1.2|DOWN
+ NoisyPrune(p=0.6)|    998.1|  0.467|  0.0067|  0.0031|     2.1|DOWN
+ AlphaBeta       |  83760.9|  1.000|  0.0000|  0.0000|     1.0|=
+ RBFS            |2000000.0|  1.000|  0.0000|  0.0000|     0.0|=
+ IDA*            |10000020.5|  1.000|  0.0000|  0.0000|     0.0|=
+
+================================================================================
+ TABLE: CONVERGENCE OPERATOR Omega(eps=0.05) at d=10   beta*(eps)=log_b(1/eps)=2.161
+ Algorithm       |    beta|     Dd| beta>=b*?|      d*|q*
+ ----------------------------------------------------------------
+ BFS             |  0.1938|  1.000|        no|     inf|  0.9500
+ Dijkstra        |  0.1945|  0.690|        no|     inf|  0.6558
+ A*              |  0.1957|  0.692|        no|     inf|  0.6570
+ WA*(1.5)        |  0.1974|  0.790|        no|     inf|  0.7503
+ WA*(2.0)        |  0.2001|  0.850|        no|     inf|  0.8075
+ GBFS            |  0.1008|  0.114|        no|     inf|  0.1088
+ BiDijkstra      |  0.1990|  0.791|        no|     inf|  0.7516
+ RBFS            |  0.3368|  1.000|        no|     inf|  0.9500
+ IDA*            |  0.0106|  1.000|        no|     inf|  0.9500
+ AlphaBeta       |  0.7053|  1.000|        no|     inf|  0.9500
+ NoisyPrune(p=0.3)|  0.1954|  0.600|        no|     inf|  0.5700
+ NoisyPrune(p=0.6)|  0.1978|  0.467|        no|     inf|  0.4437
+
+================================================================================
+ TABLE: BEI AND ABEI ACROSS DEPTHS
+ Algorithm       |d=4   BEI    ABEI  |d=6   BEI    ABEI  |d=8   BEI    ABEI  |d=10  BEI    ABEI  |d=12  BEI    ABEI  
+ --------------------------------------------------------------------------------------------------------------------
+ BFS             | 0.0358  0.0358 | 0.0211  0.0211 | 0.0146  0.0146 | 0.0111  0.0111 | 0.0088  0.0088 
+ Dijkstra        | 0.0365  0.0248 | 0.0213  0.0147 | 0.0148  0.0102 | 0.0113  0.0078 | 0.0089  0.0060 
+ A*              | 0.0372  0.0253 | 0.0215  0.0149 | 0.0148  0.0103 | 0.0113  0.0078 | 0.0089  0.0060 
+ WA*(1.5)        | 0.0254  0.0197 | 0.0146  0.0115 | 0.0100  0.0080 | 0.0076  0.0060 | 0.0060  0.0047 
+ WA*(2.0)        | 0.0201  0.0168 | 0.0115  0.0096 | 0.0077  0.0066 | 0.0058  0.0050 | 0.0046  0.0038 
+ GBFS            | 0.3498  0.0678 | 0.3190  0.0485 | 0.2871  0.0355 | 0.2796  0.0320 | 0.2697  0.0301 
+ BiDijkstra      | 0.0553  0.0439 | 0.0311  0.0246 | 0.0213  0.0169 | 0.0159  0.0126 | 0.0125  0.0097 
+ RBFS            | 0.0001  0.0001 | 0.0000  0.0000 | 0.0000  0.0000 | 0.0000  0.0000 | 0.0000  0.0000 
+ IDA*            | 0.0000  0.0000 | 0.0000  0.0000 | 0.0000  0.0000 | 0.0000  0.0000 | 0.0000  0.0000 
+ AlphaBeta       | 0.0068  0.0068 | 0.0008  0.0008 | 0.0001  0.0001 | 0.0000  0.0000 | 0.0000  0.0000 
+ NoisyPrune(p=0.3)| 0.0308  0.0186 | 0.0193  0.0116 | 0.0136  0.0078 | 0.0104  0.0062 | 0.0083  0.0048 
+ NoisyPrune(p=0.6)| 0.0257  0.0113 | 0.0157  0.0072 | 0.0090  0.0039 | 0.0067  0.0031 | 0.0050  0.0023 
+
+================================================================================
+ TABLE: HELD-OUT PREDICTION ERROR (train d=4,6,8; test d=10,12)
+ BFS              | MAPE =   58.46%
+ Dijkstra         | MAPE =   59.41%
+ A*               | MAPE =   60.63%
+ WA*(1.5)         | MAPE =   61.22%
+ WA*(2.0)         | MAPE =   62.80%
+ GBFS             | MAPE =   35.39%
+ BiDijkstra       | MAPE =   60.74%
+ RBFS             | MAPE =  981.86%
+ IDA*             | MAPE =   14.45%
+ AlphaBeta        | MAPE =   57.25%
+ NoisyPrune(p=0.3) | MAPE =   63.97%
+ NoisyPrune(p=0.6) | MAPE =   47.07%
+
+================================================================================
+ TABLE: RANKING AT d=12 (by ABEI)
+ # 1 GBFS             N=    114.7 | SR=100.0% | BEI=0.2697 | ABEI=0.0301 | Dd=0.112 | q*=0.106 | C/C*=1.651
+ # 2 BiDijkstra       N=   1464.6 | SR=100.0% | BEI=0.0125 | ABEI=0.0097 | Dd=0.775 | q*=0.736 | C/C*=0.993
+ # 3 BFS              N=   1970.3 | SR=100.0% | BEI=0.0088 | ABEI=0.0088 | Dd=1.000 | q*=0.950 | C/C*=1.468
+ # 4 Dijkstra         N=   1968.3 | SR=100.0% | BEI=0.0089 | ABEI=0.0060 | Dd=0.678 | q*=0.644 | C/C*=1.000
+ # 5 A*               N=   1965.4 | SR=100.0% | BEI=0.0089 | ABEI=0.0060 | Dd=0.675 | q*=0.641 | C/C*=1.000
+ # 6 NoisyPrune(p=0.3) N=   1888.1 | SR=86.7% | BEI=0.0083 | ABEI=0.0048 | Dd=0.579 | q*=0.550 | C/C*=1.194
+ # 7 WA*(1.5)         N=   1958.6 | SR=100.0% | BEI=0.0060 | ABEI=0.0047 | Dd=0.779 | q*=0.740 | C/C*=1.000
+ # 8 WA*(2.0)         N=   1930.0 | SR=100.0% | BEI=0.0046 | ABEI=0.0038 | Dd=0.835 | q*=0.793 | C/C*=1.000
+ # 9 NoisyPrune(p=0.6) N=   1563.7 | SR=40.0% | BEI=0.0050 | ABEI=0.0023 | Dd=0.452 | q*=0.429 | C/C*=1.497
+ #10 AlphaBeta        N= 467448.9 | SR=100.0% | BEI=0.0000 | ABEI=0.0000 | Dd=1.000 | q*=0.950 | C/C*=-1.000
+ #11 RBFS             N=2000000.0 | SR= 0.0% | BEI=0.0000 | ABEI=0.0000 | Dd=1.000 | q*=0.950 | C/C*=-1.000
+ #12 IDA*             N=10000020.9 | SR= 0.0% | BEI=0.0000 | ABEI=0.0000 | Dd=1.000 | q*=0.950 | C/C*=-1.000
+
+============================================================
+ ARTICLE CROSS-CHECK vs the article's printed tables
+ (N: expected to PASS;  DeltaD: expected to differ where the
+  printed cell was rounded or re-measured)
+============================================================
+BFS                d= 4 | N    222.27 vs    222.30 [PASS] | Dd 1.000 vs 1.000 [PASS]
+Dijkstra           d= 4 | N    220.17 vs    220.20 [PASS] | Dd 0.678 vs 0.826 [DIFFERS]
+A*                 d= 4 | N    216.87 vs    216.90 [PASS] | Dd 0.679 vs 0.829 [DIFFERS]
+WA*(1.5)           d= 4 | N    212.33 vs    212.30 [PASS] | Dd 0.775 vs 0.889 [DIFFERS]
+WA*(2.0)           d= 4 | N    203.07 vs    203.10 [PASS] | Dd 0.836 vs 0.922 [DIFFERS]
+GBFS               d= 4 | N     37.03 vs     37.00 [PASS] | Dd 0.194 vs 0.351 [DIFFERS]
+BiDijkstra         d= 4 | N    155.57 vs    155.60 [PASS] | Dd 0.794 vs 0.884 [DIFFERS]
+RBFS               d= 4 | N  47617.37 vs  47617.40 [PASS] | Dd 0.679 vs 1.000 [DIFFERS]
+IDA*               d= 4 | N 8636986.90 vs 8636986.90 [PASS] | Dd 0.692 vs 1.000 [DIFFERS]
+AlphaBeta          d= 4 | N    192.50 vs    137.20 [FAIL] | Dd 1.000 vs 0.692 [DIFFERS]
+NoisyPrune(p=0.3)  d= 4 | N    212.90 vs    215.50 [FAIL] | Dd 0.604 vs 0.799 [DIFFERS]
+NoisyPrune(p=0.6)  d= 4 | N    173.77 vs    182.40 [FAIL] | Dd 0.440 vs 0.902 [DIFFERS]
+BFS                d= 6 | N    497.60 vs    497.60 [PASS] | Dd 1.000 vs 1.000 [PASS]
+Dijkstra           d= 6 | N    495.63 vs    495.60 [PASS] | Dd 0.691 vs 0.751 [DIFFERS]
+A*                 d= 6 | N    491.27 vs    491.30 [PASS] | Dd 0.692 vs 0.754 [DIFFERS]
+WA*(1.5)           d= 6 | N    483.77 vs    483.80 [PASS] | Dd 0.784 vs 0.839 [DIFFERS]
+WA*(2.0)           d= 6 | N    466.73 vs    466.70 [PASS] | Dd 0.841 vs 0.885 [DIFFERS]
+GBFS               d= 6 | N     55.80 vs     55.80 [PASS] | Dd 0.152 vs 0.208 [DIFFERS]
+BiDijkstra         d= 6 | N    359.03 vs    359.00 [PASS] | Dd 0.792 vs 0.832 [DIFFERS]
+RBFS               d= 6 | N 310305.67 vs 310305.70 [PASS] | Dd 0.692 vs 1.000 [DIFFERS]
+IDA*               d= 6 | N 10000020.90 vs 10000020.90 [PASS] | Dd 1.000 vs 1.000 [PASS]
+AlphaBeta          d= 6 | N   1589.53 vs   1082.50 [FAIL] | Dd 1.000 vs 0.575 [DIFFERS]
+NoisyPrune(p=0.3)  d= 6 | N    470.57 vs    488.00 [FAIL] | Dd 0.598 vs 0.715 [DIFFERS]
+NoisyPrune(p=0.6)  d= 6 | N    336.00 vs    413.20 [FAIL] | Dd 0.460 vs 0.857 [DIFFERS]
+BFS                d= 8 | N    879.57 vs    879.60 [PASS] | Dd 1.000 vs 1.000 [PASS]
+Dijkstra           d= 8 | N    877.97 vs    878.00 [PASS] | Dd 0.692 vs 0.682 [DIFFERS]
+A*                 d= 8 | N    874.73 vs    874.70 [PASS] | Dd 0.692 vs 0.682 [DIFFERS]
+WA*(1.5)           d= 8 | N    866.40 vs    866.40 [PASS] | Dd 0.796 vs 0.791 [PASS]
+WA*(2.0)           d= 8 | N    846.07 vs    846.10 [PASS] | Dd 0.853 vs 0.850 [PASS]
+GBFS               d= 8 | N     78.97 vs     79.00 [PASS] | Dd 0.123 vs 0.123 [PASS]
+BiDijkstra         d= 8 | N    639.30 vs    639.30 [PASS] | Dd 0.790 vs 0.782 [DIFFERS]
+RBFS               d= 8 | N 1263091.23 vs 1263091.20 [PASS] | Dd 0.694 vs 1.000 [DIFFERS]
+IDA*               d= 8 | N 10000020.20 vs 10000020.20 [PASS] | Dd 1.000 vs 1.000 [PASS]
+AlphaBeta          d= 8 | N  12965.50 vs   8681.20 [FAIL] | Dd 1.000 vs 0.478 [DIFFERS]
+NoisyPrune(p=0.3)  d= 8 | N    869.23 vs    868.90 [FAIL] | Dd 0.575 vs 0.639 [DIFFERS]
+NoisyPrune(p=0.6)  d= 8 | N    668.07 vs    735.70 [FAIL] | Dd 0.432 vs 0.814 [DIFFERS]
+BFS                d=10 | N   1366.73 vs   1366.70 [PASS] | Dd 1.000 vs 1.000 [PASS]
+Dijkstra           d=10 | N   1364.83 vs   1364.80 [PASS] | Dd 0.690 vs 0.620 [DIFFERS]
+A*                 d=10 | N   1360.80 vs   1360.80 [PASS] | Dd 0.692 vs 0.618 [DIFFERS]
+WA*(1.5)           d=10 | N   1353.90 vs   1353.90 [PASS] | Dd 0.790 vs 0.746 [DIFFERS]
+WA*(2.0)           d=10 | N   1325.23 vs   1325.20 [PASS] | Dd 0.850 vs 0.816 [DIFFERS]
+GBFS               d=10 | N     95.13 vs     95.10 [PASS] | Dd 0.114 vs 0.073 [DIFFERS]
+BiDijkstra         d=10 | N   1008.53 vs   1008.50 [PASS] | Dd 0.791 vs 0.735 [DIFFERS]
+RBFS               d=10 | N 2000000.00 vs 2000000.00 [PASS] | Dd 1.000 vs 1.000 [PASS]
+IDA*               d=10 | N 10000020.47 vs 10000020.50 [PASS] | Dd 1.000 vs 1.000 [PASS]
+AlphaBeta          d=10 | N  83760.87 vs  22294.10 [FAIL] | Dd 1.000 vs 0.436 [DIFFERS]
+NoisyPrune(p=0.3)  d=10 | N   1347.90 vs   1351.80 [FAIL] | Dd 0.600 vs 0.571 [DIFFERS]
+NoisyPrune(p=0.6)  d=10 | N    998.07 vs   1144.60 [FAIL] | Dd 0.467 vs 0.773 [DIFFERS]
+BFS                d=12 | N   1970.33 vs   1970.30 [PASS] | Dd 1.000 vs 1.000 [PASS]
+Dijkstra           d=12 | N   1968.33 vs   1968.30 [PASS] | Dd 0.678 vs 0.564 [DIFFERS]
+A*                 d=12 | N   1965.37 vs   1965.40 [PASS] | Dd 0.675 vs 0.561 [DIFFERS]
+WA*(1.5)           d=12 | N   1958.57 vs   1958.60 [PASS] | Dd 0.779 vs 0.704 [DIFFERS]
+WA*(2.0)           d=12 | N   1929.97 vs   1930.00 [PASS] | Dd 0.835 vs 0.784 [DIFFERS]
+GBFS               d=12 | N    114.73 vs    114.70 [PASS] | Dd 0.112 vs 0.043 [DIFFERS]
+BiDijkstra         d=12 | N   1464.57 vs   1464.60 [PASS] | Dd 0.775 vs 0.692 [DIFFERS]
+RBFS               d=12 | N 2000000.00 vs 2000000.00 [PASS] | Dd 1.000 vs 1.000 [PASS]
+IDA*               d=12 | N 10000020.93 vs 10000020.90 [PASS] | Dd 1.000 vs 1.000 [PASS]
+AlphaBeta          d=12 | N 467448.90 vs  22218.80 [FAIL] | Dd 1.000 vs 0.436 [DIFFERS]
+NoisyPrune(p=0.3)  d=12 | N   1888.07 vs   1952.40 [FAIL] | Dd 0.579 vs 0.511 [DIFFERS]
+NoisyPrune(p=0.6)  d=12 | N   1563.67 vs   1653.30 [FAIL] | Dd 0.452 vs 0.734 [DIFFERS]
+N cross-check: 45/60 pass
+DeltaD cross-check: 14/60 pass
+
+Per-trial CSV written: edbt_pertrial.csv (1800 rows)
